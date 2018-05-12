@@ -299,7 +299,7 @@ age_tpv = age_tpv.to_frame()
 age_df = age_pc.merge(age_app, left_index =True,right_index=True)
 age_df = age_df.merge(age_tpv, left_index =True,right_index=True)
 age_df = age_df.rename(index=str, columns={"Item ID": "Total Purchased", "Price_x": "Average Price", "Price_y": "Total Price"})
-age_df.head()
+age_df.head(10)
 ```
 
 
@@ -364,6 +364,24 @@ age_df.head()
       <td>89</td>
       <td>2.962640</td>
       <td>370.33</td>
+    </tr>
+    <tr>
+      <th>30-34</th>
+      <td>57</td>
+      <td>3.082031</td>
+      <td>197.25</td>
+    </tr>
+    <tr>
+      <th>35-39</th>
+      <td>37</td>
+      <td>2.842857</td>
+      <td>119.40</td>
+    </tr>
+    <tr>
+      <th>&gt;40</th>
+      <td>16</td>
+      <td>3.189375</td>
+      <td>51.03</td>
     </tr>
   </tbody>
 </table>
