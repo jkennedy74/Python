@@ -16,6 +16,17 @@ Requirements:
 
 
 
+### Analysis
+
+#### Observation 1
+The max temperature is higher near the equator.  Figure P1 (Max Temperature vs Latitude) shows the concentration of high temperatures are distributed between -30 and 30 latitude.
+
+#### Observation 2
+Cities with a humidity of 70% or higher are concentrated in the northern hemisphere.  This doesnt necessarily mean that the southern hemisphere is less humid. 80.9% of the southern hemisphere surface area is water while the northern hemisphere is 60.7 (Wikipedia) yielding ~20% less surface area of land to sample cities from.  The sample size in this exercise was 4000.  The plots show in general that there are more cities in the northern hemisphere.
+
+#### Observasion 3
+Whether or not is cloudy doesnt seem to corralate with distance from the equator.  The sample set yields fairly even distribution between -50 and 75 latitude.  This is a large area spanning from about the middle of Greenland and the southern tip of Argentina.  
+
 
 ```python
 import json
@@ -8435,7 +8446,7 @@ plt.show()
 ```
 
 
-![png](output_14_0.png)
+![png](output_15_0.png)
 
 
 #### Humidity (%) vs. Latitude
@@ -8459,7 +8470,7 @@ plt.show()
 ```
 
 
-![png](output_16_0.png)
+![png](output_17_0.png)
 
 
 #### Cloudiness (%) vs. Latitude
@@ -8484,7 +8495,7 @@ plt.show()
 ```
 
 
-![png](output_18_0.png)
+![png](output_19_0.png)
 
 
 #### Wind Speed (mph) vs. Latitude
@@ -8508,7 +8519,7 @@ plt.show()
 ```
 
 
-![png](output_20_0.png)
+![png](output_21_0.png)
 
 
 #### Save Results to CSV
