@@ -24,7 +24,7 @@ The max temperature is higher near the equator.  Figure P1 (Max Temperature vs L
 #### Observation 2
 Cities with a humidity of 70% or higher are concentrated in the northern hemisphere.  This doesnt necessarily mean that the southern hemisphere is less humid. 80.9% of the southern hemisphere surface area is water while the northern hemisphere is 60.7 (Wikipedia) yielding ~20% less surface area of land to sample cities from.  The sample size in this exercise was 4000.  The plots show in general that there are more cities in the northern hemisphere.
 
-#### Observasion 3
+#### Observation 3
 Whether or not is cloudy doesnt seem to corralate with distance from the equator.  The sample set yields fairly even distribution between -50 and 75 latitude.  This is a large area spanning from about the middle of Greenland and the southern tip of Argentina.  
 
 
